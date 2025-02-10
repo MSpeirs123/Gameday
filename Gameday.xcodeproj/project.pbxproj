@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A254C52D5A4FD200C24DF5 /* GamedayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A254C42D5A4FD200C24DF5 /* GamedayApp.swift */; };
+		C9A254C72D5A4FD200C24DF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A254C62D5A4FD200C24DF5 /* ContentView.swift */; };
+		C9A254C92D5A4FD800C24DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A254C82D5A4FD800C24DF5 /* Assets.xcassets */; };
+		C9A254CD2D5A4FD800C24DF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A254CC2D5A4FD800C24DF5 /* Preview Assets.xcassets */; };
+		C9A254D72D5A4FD900C24DF5 /* GamedayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A254D62D5A4FD900C24DF5 /* GamedayTests.swift */; };
+		C9A254E12D5A4FD900C24DF5 /* GamedayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A254E02D5A4FD900C24DF5 /* GamedayUITests.swift */; };
+		C9A254E32D5A4FD900C24DF5 /* GamedayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A254E22D5A4FD900C24DF5 /* GamedayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9A254D32D5A4FD900C24DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A254B92D5A4FD200C24DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A254C02D5A4FD200C24DF5;
+			remoteInfo = Gameday;
+		};
+		C9A254DD2D5A4FD900C24DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A254B92D5A4FD200C24DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A254C02D5A4FD200C24DF5;
+			remoteInfo = Gameday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9A254C12D5A4FD200C24DF5 /* Gameday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gameday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A254C42D5A4FD200C24DF5 /* GamedayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamedayApp.swift; sourceTree = "<group>"; };
+		C9A254C62D5A4FD200C24DF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9A254C82D5A4FD800C24DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A254CA2D5A4FD800C24DF5 /* Gameday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gameday.entitlements; sourceTree = "<group>"; };
+		C9A254CC2D5A4FD800C24DF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9A254D22D5A4FD900C24DF5 /* GamedayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamedayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A254D62D5A4FD900C24DF5 /* GamedayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamedayTests.swift; sourceTree = "<group>"; };
+		C9A254DC2D5A4FD900C24DF5 /* GamedayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamedayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A254E02D5A4FD900C24DF5 /* GamedayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamedayUITests.swift; sourceTree = "<group>"; };
+		C9A254E22D5A4FD900C24DF5 /* GamedayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamedayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A254BE2D5A4FD200C24DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A254CF2D5A4FD900C24DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A254D92D5A4FD900C24DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A254B82D5A4FD200C24DF5 = {
+			isa = PBXGroup;
+			children = (
+				C9A254C32D5A4FD200C24DF5 /* Gameday */,
+				C9A254D52D5A4FD900C24DF5 /* GamedayTests */,
+				C9A254DF2D5A4FD900C24DF5 /* GamedayUITests */,
+				C9A254C22D5A4FD200C24DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A254C22D5A4FD200C24DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A254C12D5A4FD200C24DF5 /* Gameday.app */,
+				C9A254D22D5A4FD900C24DF5 /* GamedayTests.xctest */,
+				C9A254DC2D5A4FD900C24DF5 /* GamedayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A254C32D5A4FD200C24DF5 /* Gameday */ = {
+			isa = PBXGroup;
+			children = (
+				C9A254C42D5A4FD200C24DF5 /* GamedayApp.swift */,
+				C9A254C62D5A4FD200C24DF5 /* ContentView.swift */,
+				C9A254C82D5A4FD800C24DF5 /* Assets.xcassets */,
+				C9A254CA2D5A4FD800C24DF5 /* Gameday.entitlements */,
+				C9A254CB2D5A4FD800C24DF5 /* Preview Content */,
+			);
+			path = Gameday;
+			sourceTree = "<group>";
+		};
+		C9A254CB2D5A4FD800C24DF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9A254CC2D5A4FD800C24DF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9A254D52D5A4FD900C24DF5 /* GamedayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A254D62D5A4FD900C24DF5 /* GamedayTests.swift */,
+			);
+			path = GamedayTests;
+			sourceTree = "<group>";
+		};
+		C9A254DF2D5A4FD900C24DF5 /* GamedayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A254E02D5A4FD900C24DF5 /* GamedayUITests.swift */,
+				C9A254E22D5A4FD900C24DF5 /* GamedayUITestsLaunchTests.swift */,
+			);
+			path = GamedayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A254C02D5A4FD200C24DF5 /* Gameday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A254E62D5A4FD900C24DF5 /* Build configuration list for PBXNativeTarget "Gameday" */;
+			buildPhases = (
+				C9A254BD2D5A4FD200C24DF5 /* Sources */,
+				C9A254BE2D5A4FD200C24DF5 /* Frameworks */,
+				C9A254BF2D5A4FD200C24DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gameday;
+			productName = Gameday;
+			productReference = C9A254C12D5A4FD200C24DF5 /* Gameday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9A254D12D5A4FD900C24DF5 /* GamedayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A254E92D5A4FD900C24DF5 /* Build configuration list for PBXNativeTarget "GamedayTests" */;
+			buildPhases = (
+				C9A254CE2D5A4FD900C24DF5 /* Sources */,
+				C9A254CF2D5A4FD900C24DF5 /* Frameworks */,
+				C9A254D02D5A4FD900C24DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A254D42D5A4FD900C24DF5 /* PBXTargetDependency */,
+			);
+			name = GamedayTests;
+			productName = GamedayTests;
+			productReference = C9A254D22D5A4FD900C24DF5 /* GamedayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9A254DB2D5A4FD900C24DF5 /* GamedayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A254EC2D5A4FD900C24DF5 /* Build configuration list for PBXNativeTarget "GamedayUITests" */;
+			buildPhases = (
+				C9A254D82D5A4FD900C24DF5 /* Sources */,
+				C9A254D92D5A4FD900C24DF5 /* Frameworks */,
+				C9A254DA2D5A4FD900C24DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A254DE2D5A4FD900C24DF5 /* PBXTargetDependency */,
+			);
+			name = GamedayUITests;
+			productName = GamedayUITests;
+			productReference = C9A254DC2D5A4FD900C24DF5 /* GamedayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A254B92D5A4FD200C24DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C9A254C02D5A4FD200C24DF5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C9A254D12D5A4FD900C24DF5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9A254C02D5A4FD200C24DF5;
+					};
+					C9A254DB2D5A4FD900C24DF5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9A254C02D5A4FD200C24DF5;
+					};
+				};
+			};
+			buildConfigurationList = C9A254BC2D5A4FD200C24DF5 /* Build configuration list for PBXProject "Gameday" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A254B82D5A4FD200C24DF5;
+			productRefGroup = C9A254C22D5A4FD200C24DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A254C02D5A4FD200C24DF5 /* Gameday */,
+				C9A254D12D5A4FD900C24DF5 /* GamedayTests */,
+				C9A254DB2D5A4FD900C24DF5 /* GamedayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A254BF2D5A4FD200C24DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A254CD2D5A4FD800C24DF5 /* Preview Assets.xcassets in Resources */,
+				C9A254C92D5A4FD800C24DF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A254D02D5A4FD900C24DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A254DA2D5A4FD900C24DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A254BD2D5A4FD200C24DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A254C72D5A4FD200C24DF5 /* ContentView.swift in Sources */,
+				C9A254C52D5A4FD200C24DF5 /* GamedayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A254CE2D5A4FD900C24DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A254D72D5A4FD900C24DF5 /* GamedayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A254D82D5A4FD900C24DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A254E12D5A4FD900C24DF5 /* GamedayUITests.swift in Sources */,
+				C9A254E32D5A4FD900C24DF5 /* GamedayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A254D42D5A4FD900C24DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A254C02D5A4FD200C24DF5 /* Gameday */;
+			targetProxy = C9A254D32D5A4FD900C24DF5 /* PBXContainerItemProxy */;
+		};
+		C9A254DE2D5A4FD900C24DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A254C02D5A4FD200C24DF5 /* Gameday */;
+			targetProxy = C9A254DD2D5A4FD900C24DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9A254E42D5A4FD900C24DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A254E52D5A4FD900C24DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C9A254E72D5A4FD900C24DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Gameday/Gameday.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gameday/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameDay.Gameday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9A254E82D5A4FD900C24DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Gameday/Gameday.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gameday/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameDay.Gameday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9A254EA2D5A4FD900C24DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameDay.GamedayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gameday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gameday";
+			};
+			name = Debug;
+		};
+		C9A254EB2D5A4FD900C24DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameDay.GamedayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gameday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gameday";
+			};
+			name = Release;
+		};
+		C9A254ED2D5A4FD900C24DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameDay.GamedayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gameday;
+			};
+			name = Debug;
+		};
+		C9A254EE2D5A4FD900C24DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GameDay.GamedayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gameday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A254BC2D5A4FD200C24DF5 /* Build configuration list for PBXProject "Gameday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A254E42D5A4FD900C24DF5 /* Debug */,
+				C9A254E52D5A4FD900C24DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A254E62D5A4FD900C24DF5 /* Build configuration list for PBXNativeTarget "Gameday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A254E72D5A4FD900C24DF5 /* Debug */,
+				C9A254E82D5A4FD900C24DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A254E92D5A4FD900C24DF5 /* Build configuration list for PBXNativeTarget "GamedayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A254EA2D5A4FD900C24DF5 /* Debug */,
+				C9A254EB2D5A4FD900C24DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A254EC2D5A4FD900C24DF5 /* Build configuration list for PBXNativeTarget "GamedayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A254ED2D5A4FD900C24DF5 /* Debug */,
+				C9A254EE2D5A4FD900C24DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A254B92D5A4FD200C24DF5 /* Project object */;
+}
